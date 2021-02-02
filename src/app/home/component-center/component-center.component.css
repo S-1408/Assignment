@@ -1,0 +1,21 @@
+.con{
+  background-color: rgb(235, 229, 229);
+  height:45.5vh;
+}
+.blue{
+  background-color: lightpink;
+  height:10vh;
+}
+.green{
+  background-color:  lightpink;
+  height:10vh;
+}
+.red{
+  background-color:lightpink;
+  height:10vh;
+}
+
+.deco{
+  border:2px solid rgb(221, 205, 205);
+  border-radius: 5px;
+}

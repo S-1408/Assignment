@@ -1,1 +1,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+.deco{
+  border-radius: 5px;
+  border:2px solid blue;
+}

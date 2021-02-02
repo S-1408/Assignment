@@ -1,45 +1,26 @@
-<div class="conatiner justify-container-center mt-5 ml-5">
 
-  <div class="row">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 "  style="border:2px solid gray">
 
-          something
+
+<div class="container con mt-5">
+  <div class="row justify-content-between">
+    <div class="col-md-4 blue text-center ">
       <app-component-a [a]="data"></app-component-a>
-        </div>
-        <div class="col-md-6"  style="border:2px solid gray">
-          something
-          <app-component-b [b]="data"></app-component-b>
-        </div>
-      </div>
     </div>
-    <br>
- <div class="container justify-container-center mt-5 mr-5">
-  <div class="row">
-    <div class="col-lg-12">
-      <input type="text" [(ngModel)]="data" placeholder="type">
-      <!-- <h1>{{data}}</h1> -->
+    <div class="col-md-4 red text-center ">
+      <app-component-b [b]="data"></app-component-b>
     </div>
   </div>
- </div>
-    <br>
-
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col col-md-5" style="border:2px solid gray;">
-          something
+  <div class="row justify-content-center mt-5 mb-5">
+    <div class="col-md-4 green text-center " >
+      <input type="text" class="mt-3 deco" [(ngModel)]="data" placeholder="type here...">
+    </div>
+  </div>
+  <div class="row justify-content-between">
+    <div class="col-md-4 blue text-center">
       <app-component-c [c]="data"></app-component-c>
-        </div>
-        <div class="col col-md-5" style="border:2px solid gray">
-          something
-          <app-component-d [d]="data"></app-component-d>
-        </div>
-      </div>
     </div>
-
+    <div class="col-md-4 red text-center">
+      <app-component-d [d]="data"></app-component-d>
+    </div>
   </div>
-
-  </div>
-
-
+</div>
